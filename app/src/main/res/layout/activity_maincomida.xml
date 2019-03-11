@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="0dp"
+    tools:context=".MainActivityDos">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        android:background="@drawable/maizfond"/>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:text="Los mayas eran una sociedad agrícola, pero también cazaban, pescaban, se alimentaban de la vegetación silvestre, e incluso criaban unos animales. Los mayas son conocidos como los “hombres del maíz.” El maíz era la base de la comida maya. Era usado para hacer las tortillas, los tamales, y el atole. Además del maíz los mayas cultivaban el frijol, la calabaza, el chile, la yuca, los boniatos, y otras legumbres. Los mayas tenían y todavía hoy día tienen una dieta interesante.
+                Los mayas practicaban la agricultura de milpa. Milpa significa para cortar los bosques y incendiar los troncos como fertilizante. Con esta técnica los mayas cultivaban una variedad de legumbres, frutos, hierbas, y especias para comer. Unos ejemplos de estas legumbres son: la ciruela,	la papaya,	la guayaba,	los chiles,	el mango, el tomate,	las palmeras,	el cacao,	los frijoles,	el plátano,el aguacate,	el mamey,	el maíz,	las calabazas,	el melón blanco,los boniatos,	la piña,	la yuca,	la sandía, el camote. Las hierbas y especias que los mayas cultivaban eran:la nuez moscada,	el clavo,	el ajonjolí, el cilantro,	el apazote,	el anís."
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:tint="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

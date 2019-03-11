@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CulturaMaya</string>
+    <string name="title_activity_maps_chichen">Map</string>
+    <string name="title_activity_maps_tikal">Map</string>
+    <string name="title_activity_maps_copan">Map</string>
+    <string name="title_activity_maps_palenque">Map</string>
+    <string name="title_activity_maps_coba">Map</string>
+</resources>

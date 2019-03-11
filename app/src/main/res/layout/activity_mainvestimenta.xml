@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="0dp"
+    tools:context=".MainActivityDos">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/fondbu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:text="Mayas. El pueblo maya creó una de las más originales y grandiosas civilizaciones antiguas, en una vasta y rica región de América. Los mayas no constituyen a un grupo homogéneo, sino un conjunto de etnias con distintas lenguas, costumbres y realidades históricas, pero que comparten rasgos que permiten integrarlas en una unidad cultural. A la vez, esta unidad forma parte de otra mayor, la Cultura mesoamericana. La civilización maya se extendió por el sur de Yucatán, parte de Guatemala y Honduras, entre los siglos III y XV. No constituían un estado unificado, sino que se organizaban en varias ciudades-estado independientes entre si que controlaban un territorio más o menos amplio. Tampoco hablaban una única lengua.Con el máximo esplendor de las civilizaciones americanas, el continente entró en su historia gracias al desarrollo de la escritura, especialmente por parte de los mayas a partir del año 292. Aunque el aislamiento del continente con respecto al resto del planeta no permitió un intercambio de conocimientos que fortaleciera estas culturas para prepararlas a su futuro encuentro con los otros continentes, sus avances son de un gran valor universal y poseen gran vigencia, como es el calendario, las matemáticas, la astronomía, las observaciones geológicas y otros muchos elementos que son hoy materia de estudio.En 292 comenzó el esplendor de la cultura maya. Este periodo, el clásico, se cerró en el 900 con la decadencia de los mayas. Tikal, Palenque y Copán figuran entre los principales centros urbanos mayas que eran ciudades-estado."
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:tint="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

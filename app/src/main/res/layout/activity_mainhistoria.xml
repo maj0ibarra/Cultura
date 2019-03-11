@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="0dp"
+    tools:context=".MainActivityDos">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        android:background="@drawable/vest"/>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:text="La civilización maya ha habitado por zonas de América, especialmente México, durante muchos años. Hoy en día siguen quedando tribus que guardan todos sus rasgos y características, era una civilización dedicada a la agricultura, de aquí que sus vestimentas propiciaran dicha actividad. Las mujeres mayas llevaban por lo general unas faldas largas y unas camisas amplias de algodón que cubrían con pañuelos de colores para tapar sus hombros. Muchas de estas camisas estaban bordadas con flores y colores alegres. Los hombres mayas vestían un calzón especial que llamaban patí con el pecho descubierto. Adornado siempre con colores y bordados dando un toque de alegría a sus prendas. La nobleza, mucho más rica, usaba muchos atuendos y bordados con piedras y plumas a sus ropas. Además, llevaban grandes cinturones, tocados, sandalias y todo tipo de complementos lujosos que los distinguían de las clases inferiores. Solían usar muchos adornos en la cabeza, para darle colorido a los pelos: pañuelos, diademas, sombreros, gorros cónicos, etc. Las clases más altas añadían joyería y oro a sus complementos con los que se adornaban siempre, en cualquier momento del día. Eran muy conocidos por dicha particularidad. En momentos especiales en los que celebraban y festejaban algo, solían ampliar el uso de joyas y de su indumentaria como muestra de reverencia. De esta forma, aumentaban el uso del oro, de las joyas y de todo lo que tenían a mano."
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:tint="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
